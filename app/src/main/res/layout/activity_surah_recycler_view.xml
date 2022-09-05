@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FF020E1C"
+    tools:context=".SurahListAdapter">
+
+    <TextView
+        android:id="@+id/surahNameView"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_marginVertical="1sp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/noorehuda"
+        android:freezesText="false"
+        android:gravity="center_vertical|fill_vertical"
+        android:paddingRight="20sp"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textDirection="rtl"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ayatConuter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/surahNameView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="35dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textDirection="rtl" />
+
+</RelativeLayout>
